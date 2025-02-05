@@ -4825,7 +4825,7 @@ static PyObject *__pyx_pf_6pcsaft_6ensure_numpy_input(CYTHON_UNUSED PyObject *__
 
     /* "pcsaft.pyx":112
  *         params['s'] = np.asarray([params['s']])
- *     if type(params['e']) == np.float_:
+ *     if type(params['e']) == np.float64:
  *         params['e'] = np.asarray([params['e']])             # <<<<<<<<<<<<<<
  *     return x, params
  * 
