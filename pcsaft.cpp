@@ -4520,7 +4520,7 @@ static PyObject *__pyx_pf_6pcsaft_4create_assoc_matrix(CYTHON_UNUSED PyObject *_
  *     return params
  * 
  * def ensure_numpy_input(x, params):             # <<<<<<<<<<<<<<
- *     if type(x) == np.float_:
+ *     if type(x) == np.float64:
  *         x = np.asarray([x])
  */
 
@@ -4606,9 +4606,9 @@ static PyObject *__pyx_pf_6pcsaft_6ensure_numpy_input(CYTHON_UNUSED PyObject *__
   /* "pcsaft.pyx":105
  * 
  * def ensure_numpy_input(x, params):
- *     if type(x) == np.float_:             # <<<<<<<<<<<<<<
+ *     if type(x) == np.float64:             # <<<<<<<<<<<<<<
  *         x = np.asarray([x])
- *     if type(params['m']) == np.float_:
+ *     if type(params['m']) == np.float64:
  */
   __Pyx_GetModuleGlobalName(__pyx_t_1, __pyx_n_s_np); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 105, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
@@ -4623,9 +4623,9 @@ static PyObject *__pyx_pf_6pcsaft_6ensure_numpy_input(CYTHON_UNUSED PyObject *__
 
     /* "pcsaft.pyx":106
  * def ensure_numpy_input(x, params):
- *     if type(x) == np.float_:
+ *     if type(x) == np.float64:
  *         x = np.asarray([x])             # <<<<<<<<<<<<<<
- *     if type(params['m']) == np.float_:
+ *     if type(params['m']) == np.float64:
  *         params['m'] = np.asarray([params['m']])
  */
     __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 106, __pyx_L1_error)
@@ -4660,18 +4660,18 @@ static PyObject *__pyx_pf_6pcsaft_6ensure_numpy_input(CYTHON_UNUSED PyObject *__
     /* "pcsaft.pyx":105
  * 
  * def ensure_numpy_input(x, params):
- *     if type(x) == np.float_:             # <<<<<<<<<<<<<<
+ *     if type(x) == np.float64:             # <<<<<<<<<<<<<<
  *         x = np.asarray([x])
- *     if type(params['m']) == np.float_:
+ *     if type(params['m']) == np.float64:
  */
   }
 
   /* "pcsaft.pyx":107
- *     if type(x) == np.float_:
+ *     if type(x) == np.float64:
  *         x = np.asarray([x])
- *     if type(params['m']) == np.float_:             # <<<<<<<<<<<<<<
+ *     if type(params['m']) == np.float64:             # <<<<<<<<<<<<<<
  *         params['m'] = np.asarray([params['m']])
- *     if type(params['s']) == np.float_:
+ *     if type(params['s']) == np.float64:
  */
   __pyx_t_1 = __Pyx_PyObject_Dict_GetItem(__pyx_v_params, __pyx_n_u_m); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 107, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
@@ -4689,9 +4689,9 @@ static PyObject *__pyx_pf_6pcsaft_6ensure_numpy_input(CYTHON_UNUSED PyObject *__
 
     /* "pcsaft.pyx":108
  *         x = np.asarray([x])
- *     if type(params['m']) == np.float_:
+ *     if type(params['m']) == np.float64:
  *         params['m'] = np.asarray([params['m']])             # <<<<<<<<<<<<<<
- *     if type(params['s']) == np.float_:
+ *     if type(params['s']) == np.float64:
  *         params['s'] = np.asarray([params['s']])
  */
     __Pyx_GetModuleGlobalName(__pyx_t_2, __pyx_n_s_np); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 108, __pyx_L1_error)
@@ -4726,20 +4726,20 @@ static PyObject *__pyx_pf_6pcsaft_6ensure_numpy_input(CYTHON_UNUSED PyObject *__
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
     /* "pcsaft.pyx":107
- *     if type(x) == np.float_:
+ *     if type(x) == np.float64:
  *         x = np.asarray([x])
- *     if type(params['m']) == np.float_:             # <<<<<<<<<<<<<<
+ *     if type(params['m']) == np.float64:             # <<<<<<<<<<<<<<
  *         params['m'] = np.asarray([params['m']])
- *     if type(params['s']) == np.float_:
+ *     if type(params['s']) == np.float64:
  */
   }
 
   /* "pcsaft.pyx":109
- *     if type(params['m']) == np.float_:
+ *     if type(params['m']) == np.float64:
  *         params['m'] = np.asarray([params['m']])
- *     if type(params['s']) == np.float_:             # <<<<<<<<<<<<<<
+ *     if type(params['s']) == np.float64:             # <<<<<<<<<<<<<<
  *         params['s'] = np.asarray([params['s']])
- *     if type(params['e']) == np.float_:
+ *     if type(params['e']) == np.float64:
  */
   __pyx_t_4 = __Pyx_PyObject_Dict_GetItem(__pyx_v_params, __pyx_n_u_s); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 109, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_4);
@@ -4757,9 +4757,9 @@ static PyObject *__pyx_pf_6pcsaft_6ensure_numpy_input(CYTHON_UNUSED PyObject *__
 
     /* "pcsaft.pyx":110
  *         params['m'] = np.asarray([params['m']])
- *     if type(params['s']) == np.float_:
+ *     if type(params['s']) == np.float64:
  *         params['s'] = np.asarray([params['s']])             # <<<<<<<<<<<<<<
- *     if type(params['e']) == np.float_:
+ *     if type(params['e']) == np.float64:
  *         params['e'] = np.asarray([params['e']])
  */
     __Pyx_GetModuleGlobalName(__pyx_t_5, __pyx_n_s_np); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 110, __pyx_L1_error)
@@ -4794,18 +4794,18 @@ static PyObject *__pyx_pf_6pcsaft_6ensure_numpy_input(CYTHON_UNUSED PyObject *__
     __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
     /* "pcsaft.pyx":109
- *     if type(params['m']) == np.float_:
+ *     if type(params['m']) == np.float64:
  *         params['m'] = np.asarray([params['m']])
- *     if type(params['s']) == np.float_:             # <<<<<<<<<<<<<<
+ *     if type(params['s']) == np.float64:             # <<<<<<<<<<<<<<
  *         params['s'] = np.asarray([params['s']])
- *     if type(params['e']) == np.float_:
+ *     if type(params['e']) == np.float64:
  */
   }
 
   /* "pcsaft.pyx":111
- *     if type(params['s']) == np.float_:
+ *     if type(params['s']) == np.float64:
  *         params['s'] = np.asarray([params['s']])
- *     if type(params['e']) == np.float_:             # <<<<<<<<<<<<<<
+ *     if type(params['e']) == np.float64:             # <<<<<<<<<<<<<<
  *         params['e'] = np.asarray([params['e']])
  *     return x, params
  */
