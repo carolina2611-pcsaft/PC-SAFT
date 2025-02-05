@@ -4862,16 +4862,16 @@ static PyObject *__pyx_pf_6pcsaft_6ensure_numpy_input(CYTHON_UNUSED PyObject *__
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
     /* "pcsaft.pyx":111
- *     if type(params['s']) == np.float_:
+ *     if type(params['s']) == np.float64:
  *         params['s'] = np.asarray([params['s']])
- *     if type(params['e']) == np.float_:             # <<<<<<<<<<<<<<
+ *     if type(params['e']) == np.float64:             # <<<<<<<<<<<<<<
  *         params['e'] = np.asarray([params['e']])
  *     return x, params
  */
   }
 
   /* "pcsaft.pyx":113
- *     if type(params['e']) == np.float_:
+ *     if type(params['e']) == np.float64:
  *         params['e'] = np.asarray([params['e']])
  *     return x, params             # <<<<<<<<<<<<<<
  * 
@@ -4894,7 +4894,7 @@ static PyObject *__pyx_pf_6pcsaft_6ensure_numpy_input(CYTHON_UNUSED PyObject *__
  *     return params
  * 
  * def ensure_numpy_input(x, params):             # <<<<<<<<<<<<<<
- *     if type(x) == np.float_:
+ *     if type(x) == np.float64:
  *         x = np.asarray([x])
  */
 
@@ -16675,7 +16675,7 @@ static CYTHON_SMALL_CODE int __Pyx_InitCachedConstants(void) {
  *     return params
  * 
  * def ensure_numpy_input(x, params):             # <<<<<<<<<<<<<<
- *     if type(x) == np.float_:
+ *     if type(x) == np.float64:
  *         x = np.asarray([x])
  */
   __pyx_tuple__28 = PyTuple_Pack(2, __pyx_n_s_x, __pyx_n_s_params); if (unlikely(!__pyx_tuple__28)) __PYX_ERR(0, 104, __pyx_L1_error)
@@ -17385,7 +17385,7 @@ if (!__Pyx_RefNanny) {
  *     return params
  * 
  * def ensure_numpy_input(x, params):             # <<<<<<<<<<<<<<
- *     if type(x) == np.float_:
+ *     if type(x) == np.float64:
  *         x = np.asarray([x])
  */
   __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_6pcsaft_7ensure_numpy_input, NULL, __pyx_n_s_pcsaft); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 104, __pyx_L1_error)
