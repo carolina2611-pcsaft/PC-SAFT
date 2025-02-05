@@ -102,13 +102,13 @@ def create_assoc_matrix(params):
     return params
 
 def ensure_numpy_input(x, params):
-    if type(x) == np.float_:
+    if type(x) == np.float64:
         x = np.asarray([x])
-    if type(params['m']) == np.float_:
+    if type(params['m']) == np.float64:
         params['m'] = np.asarray([params['m']])
-    if type(params['s']) == np.float_:
+    if type(params['s']) == np.float64:
         params['s'] = np.asarray([params['s']])
-    if type(params['e']) == np.float_:
+    if type(params['e']) == np.float64:
         params['e'] = np.asarray([params['e']])
     return x, params
 
